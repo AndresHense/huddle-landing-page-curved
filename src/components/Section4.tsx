@@ -41,7 +41,11 @@ const Section4 = () => {
           viewport={{ once: true }}
         >
           <Text textStyle='h3'>Your Users</Text>
-          <Text textStyle='h5' w={{ base: '100%', md: '60%', lg: '78%' }}>
+          <Text
+            textStyle='h5'
+            textAlign={{ base: 'center', lg: 'inherit' }}
+            w={{ base: '100%', md: '60%', lg: '78%' }}
+          >
             It takes no time at all to integrate Huddle with your app's
             authentication solution. This means, once signed in to your app,
             your users can start chatting immediately.

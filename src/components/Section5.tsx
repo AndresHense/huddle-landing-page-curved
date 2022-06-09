@@ -15,7 +15,7 @@ const Section5 = () => {
         <Text
           textStyle='h3'
           as={motion.h3}
-          alignSelf='center'
+          textAlign='center'
           justifySelf='center'
           px={{ base: 6, lg: 'inherit' }}
           transition='1s'

@@ -41,7 +41,11 @@ const Section3 = () => {
         viewport={{ once: true }}
       >
         <Text textStyle='h3'>Flowing Conversations</Text>
-        <Text textStyle='h5' w={{ base: '100%', md: '60%', lg: '78%' }}>
+        <Text
+          textStyle='h5'
+          textAlign={{ base: 'center', lg: 'inherit' }}
+          w={{ base: '100%', md: '60%', lg: '78%' }}
+        >
           You wouldn't paginate a conversation in real life, so why do it
           online? Our threads have just-in-time loading for a more natural flow.
         </Text>

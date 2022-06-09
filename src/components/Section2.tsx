@@ -46,6 +46,7 @@ const Section2 = () => {
           </Text>
           <Text
             textStyle='h5'
+            textAlign={{ base: 'center', lg: 'inherit' }}
             w={{ base: '100%', md: '60%', lg: '78%' }}
             alignSelf={{ base: 'center', lg: 'inherit' }}
           >
