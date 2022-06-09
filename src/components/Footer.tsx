@@ -20,7 +20,7 @@ const Footer = () => {
   });
   return (
     <VStack w='100%' spacing={0}>
-      <Image src={bgFooterTop} w='100%' />
+      <Image src={bgFooterTop} w='100%' px={0} />
 
       <Stack
         direction={{ base: 'column-reverse', lg: 'row' }}
