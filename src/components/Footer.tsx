@@ -19,7 +19,7 @@ const Footer = () => {
     lg: 'images/bg-footer-top-desktop.svg',
   });
   return (
-    <VStack w='100%' spacing={0}>
+    <VStack spacing={0} w='100%'>
       <Image src={bgFooterTop} w='100%' px={0} mx={0} />
 
       <Stack
