@@ -15,7 +15,7 @@ import { FrText } from './Framer';
 
 const Footer = () => {
   const bgFooterTop = useBreakpointValue({
-    base: 'images/bg-footer-top-mobile.svg',
+    base: 'images/bg-footer-top-desktop.svg',
     lg: 'images/bg-footer-top-desktop.svg',
   });
   return (
