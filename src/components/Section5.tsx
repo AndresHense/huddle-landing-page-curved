@@ -11,12 +11,12 @@ const Section5 = () => {
       py={{ base: 32, lg: 56 }}
       spacing={{ base: 8, lg: 14 }}
     >
-      <Box>
+      <Box display='flex' justifyContent='center' w='100%'>
         <Text
           textStyle='h3'
           as={motion.h3}
           alignSelf='center'
-          w='100%'
+          justifySelf='center'
           px={{ base: 6, lg: 'inherit' }}
           transition='1s'
           initial={{ y: -45, opacity: 0 }}
